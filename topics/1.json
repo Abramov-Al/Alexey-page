@@ -1,61 +1,181 @@
 {
-    "title": "UML Use Case",
-    "items": [
+  "title": "UML Use Case",
+  "items": [
+    {
+      "type": "text",
+      "data": [
         {
-            "type": "text",
-            "data": [
-                {
-                    "text": "Разработка диаграммы",
-                    "class": "md-title"
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "data": [
-                {
-                    "text": "Диаграмма создана с помощью "
-                },
-                {
-                    "text": "PlantUML",
-                    "link": "https://plantuml.com"
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "data": [
-                {
-                    "text": "PlantUML is used to draw UML diagrams, using a simple and human readable text description. Be careful, because it does not prevent you from drawing inconsistent diagrams (such as having two classes inheriting from each other, for example). So it's more a drawing tool than a modeling tool."
-                }
-            ]
-        },
-        {
-            "type": "image",
-            "data": "img/use-case-diagram.png"
-        },
-        {
-            "type": "text",
-            "data": [
-                {
-                    "text": "Постусловия",
-                    "class": "md-title"
-                }
-            ]
-        },
-        {
-            "type": "list",
-            "data": [
-                [{
-                    "text": "сформирована личная страница с использованием HTML, CSS, JS"
-                }],
-                [{
-                    "text": "на личной странице зарезервированы места для описания результатов всех следующих лабораторных работ"
-                }],
-                [{
-                    "text": "ссылка на личную страницу записана в списке группы"
-                }]
-            ]
+          "text": "1. Идентификатор прецедента",
+          "class": "md-title"
         }
-    ]
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "ВКР"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "2. Название прецедента",
+          "class": "md-title"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "Разметка личной страницы, разработка UML Use Case"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "3. Контекст",
+          "class": "md-title"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "Дисциплина Проектирование информационных систем"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "4. Участники (actors) и цели (goals)",
+          "class": "md-title"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "data": "https://github.com/S-Arkhipov/StudentPage/blob/master/%D1%82%D0%B0%D0%B1%D0%BB.JPG?raw=true"
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "5. Предусловия (pre-conditions)",
+          "class": "md-title"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "data": [
+        [
+          {
+            "text": "освоена работа с личным репозиторием и основными CASE-инструментами"
+          }
+        ],
+        [
+          {
+            "text": "освоены основные приемы преобразования диаграмм IDEF0 в UML USE Case"
+          }
+        ],
+        [
+          {
+            "text": "сформированы примеры концептуальных отношений и выбран прецедент для описания"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "6. Постусловия (post-conditions)",
+          "class": "md-title"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "data": [
+        [
+          {
+            "text": "сформирована личная страница с использованием HTML, CSS, JS"
+          }
+        ],
+        [
+          {
+            "text": "на личной странице зарезервированы места для описания результатов всех следующих лабораторных работ"
+          }
+        ],
+        [
+          {
+            "text": "ссылка на личную страницу записана в списке группы"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "7. Основной поток (main flow)",
+          "class": "md-title"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "Дисциплина Проектирование информационных систем"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "8. Исключения (exceptions)",
+          "class": "md-title"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "data": [
+        [
+          {
+            "text": "Проблема в корректности имен репозиториев (Неправильно написана одна(!) буква, долго ищем, почему не хочет работать сайт)"
+          }
+        ],
+        [
+          {
+            "text": "Несогласованные по смыслу/содержанию/наполнению UML CASE"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "image",
+      "data": "http://www.plantuml.com/plantuml/uml/fLEzhjem69sldyBAr0v8VO2gkabO8sNhR2KkH8G4EKOT08bIH0SgLUhIfLANIbsZ5We5acUmtwWdiIbXw7I5WitvET-n5HuBoOISZbDIZ99imWGRKnR9ND0PUV1OD1g8V9h5Vfu2UZrC92SFhX3vMuDuAIGGvYBceWijEddJWaUiu4zEJFaRIMLEHJ8OIXedWaSooJDY-eOlA2keetwelJghMlt4Ud8i6LZoAuYTVg_E-kEL2Wtp3GnGTMYjfLx1tb45LgMNu7_XkrGNV2gzLNyeDfrOCa5TDk3K3SERwzYM-etK2lkzzRHTZw3ReGsbFr7yR6UhlLwhqfcHwmMw9kuBbAY0UGTrKYN5Kg7n1vEDFdhJd5wlsjGQW6syWse3nT7v5-cPoE-gXk9oNmKjzHfJAdLgRNKpfYc6jUurqI3UsQwL6NGxLMU8txay6A3HAxqqvpoOQqFPidbkfhunVTRRxc7_OmffhqUVkSy9dcORMCG3ujqXFX3_3ka3wLjaGV0QlPnZ7v80qFmLNXtooBCOVv6_"
+    },
+    {
+      "type": "text",
+      "data": [
+        {
+          "text": "ФАйл",
+          "link": "https://github.com/S-Arkhipov/StudentPage/blob/master/dia1.txt"
+        }
+      ]
+    }
+  ]
 }
